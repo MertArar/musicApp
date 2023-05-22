@@ -8,5 +8,4 @@ const Loader = ({ title }) => (
     </h1>
   </div>
 );
-
 export default Loader;
