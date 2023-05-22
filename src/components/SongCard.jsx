@@ -13,6 +13,7 @@ const SongCard = ({ song, isPlaying, activeSong, i, data }) => {
     dispatch(setActiveSong({ song, data, i }));
     dispatch(playPause(true));
   };
+
   return (
     <div className="flex flex-col w-[250px] p-4 bg-white/5 bg-opacity-80 backdrop-blur-sm animate-slideup rounded-lg cursor-pointer">
       <div className="relative w-full h-56 group">
@@ -31,7 +32,7 @@ const SongCard = ({ song, isPlaying, activeSong, i, data }) => {
             handlePlay={handlePlayClick}
           />
         </div>
-        <img src={song.images?.converart} alt="song_img" />
+        <img alt="song_img" src={song.images?.coverart} />
       </div>
       <div className="mt-4 flex flex-col">
         <p className="font-semibold text-lg text-white truncate">
