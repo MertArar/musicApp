@@ -27,7 +27,7 @@ const Sidebar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <>
-      <div className="md:flex hidden flex-col w-[240px] py-10 px-4 bg-[#060610]">
+      <div className="md:flex hidden flex-col w-[240px] py-10 px-4 bg-[#03030F]">
         <Link to="/">
           <div className="flex flex-row justify-center items-center mt-2">
             <h4 className="text-4xl uppercase font-bold">
